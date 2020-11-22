@@ -8,19 +8,36 @@ import br.edu.uniritter.canoas.poo.jogo.view.TabuleiroView;
 
 public class JogoController {
     private static int qtdJogadores;
+    private static int qtdTurnos = 0;
     private static Tabuleiro tabuleiro;
     private static int jogadorAtual = 0;
-    private static boolean finalizado = false;
 
     public static void iniciarJogo() {
         tabuleiro = new Tabuleiro(50,20,20);
         qtdJogadores = JogoView.intQtdJogadores(2, 6);
         registrarJogadores();
 
-       while(! finalizado) {
-           iniciarJogada();
+       while(!EhFimDoJogo() && qtdTurnos < 1000)
+       {
+           iniciarJogada(); //Mostra quem está jogando
+           System.out.println("     [TURNO: " + ++qtdTurnos + "]");
+           
+           TabuleiroView.showSituacaoAtual(tabuleiro,jogadorAtual,""); 
+           
            proximoJogador();
-           TabuleiroView.showSituacaoAtual(tabuleiro);
+       }
+       
+       if(qtdTurnos < 1000)
+       {
+            System.out.println("TURNO: " + ++qtdTurnos );
+            System.out.println("VENCEDOR: " +  tabuleiro.getJogadores().get(jogadorAtual).getNome() );
+            System.out.println("FIM ======");
+       }
+       else
+       {
+            System.out.println("TURNO: " + ++qtdTurnos);
+            System.out.println("VENCEDOR: NENHUM");
+            System.out.println("FIM ======");
        }
 
     }
@@ -44,35 +61,9 @@ public class JogoController {
         JogoView.mostraJogadorAtual(tabuleiro.getJogadores().get(jogadorAtual));
     }
 
-    public static void iniciarJogoOld() {
-        Tabuleiro tab = new Tabuleiro(50,20,20);
-        try {
-            tab.addJogador(new Jogador("Jean1"));
-            tab.addJogador(new Jogador("Jean2"));
-            Jogador a = null;
-            try {
-                a.getNome();
-            } catch (NullPointerException e) {
-                System.out.println("ops, tu tentou usar um null como jogador");
-            }
-
-            tab.addJogador(new Jogador("Jean3"));
-            tab.addJogador(new Jogador("Jean4"));
-            tab.addJogador(new Jogador("Jean5"));
-
-            tab.addJogador(new Jogador("Jean6"));
-            tab.addJogador(new Jogador("Jean7"));
-        } catch (MuitosJogadoresException e) {
-            System.out.println(e.getMessage());
-        }
-         catch (NullPointerException e) {
-            System.out.println("ops, tu tentou usar um null como jogador");
-        }
-        finally {
-            System.out.println("depois de tudo");
-        }
-        for(int i = 0; i < tab.getJogadores().size(); i++) {
-            System.out.println(tab.getJogadores().get(i));
-        }
+    private static boolean EhFimDoJogo()
+    {
+        return tabuleiro.getJogadores().get(jogadorAtual).getPosicaoAtual() >= tabuleiro.getQtdCasas()-1 ;
     }
+    
 }

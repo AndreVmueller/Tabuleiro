@@ -40,6 +40,10 @@ public class Tabuleiro  {
         }
     }
     public Casa getCasa(int pos) {
+        
+        if(pos > getQtdCasas()-1)
+            return this.casas[getQtdCasas()-1];
+        
         return this.casas[pos];
     }
     public Casa getCasaOcupada(int pos) {

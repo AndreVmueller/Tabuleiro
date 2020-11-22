@@ -32,12 +32,5 @@ public class JogoView {
     public static void mostraJogadorAtual(Jogador jog) {
         System.out.println("Agora é a vez de "+jog.getNome());
     }
-    public static void continuar() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("pressione enter para continuar");
-        String nome  = scanner.nextLine();
-
-
-
-    }
+    
 }

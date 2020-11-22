@@ -1,0 +1,572 @@
+run:
+quantos jogadores teremos ?
+5
+Informe o nome do Jogador 1:
+A
+Informe o nome do Jogador 2:
+B
+Informe o nome do Jogador 3:
+C
+Informe o nome do Jogador 4:
+D
+Informe o nome do Jogador 5:
+E
+Agora é a vez de A
+     [TURNO: 1]
+Posição atual: 5
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: A
+Agora é a vez de B
+     [TURNO: 2]
+Posição atual: -1
+|-------------------------|
+|Casa de pouco AZAR       |
+| Volte -1 casas.         |
+|-------------------------|
+Fim jogada: B
+Agora é a vez de C
+     [TURNO: 3]
+Posição atual: -1
+|-------------------------|
+|Casa de pouco AZAR       |
+| Volte -1 casas.         |
+|-------------------------|
+Fim jogada: C
+Agora é a vez de D
+     [TURNO: 4]
+Posição atual: -1
+|-------------------------|
+|Casa de pouco AZAR       |
+| Volte -1 casas.         |
+|-------------------------|
+Fim jogada: D
+Agora é a vez de E
+     [TURNO: 5]
+Posição atual: 3
+|-------------------------|
+| Casa de SORTE           |
+| Avance 6 casas.         |
+|-------------------------|
+> Jogar novamente ...
+Posição atual: 4
+|-------------------------|
+| Casa Neutra             |
+|jogadores:               |
+|E,                       |
+|-------------------------|
+Fim jogada: E
+Fim jogada: E
+Agora é a vez de A
+     [TURNO: 6]
+Posição atual: 8
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: A
+Agora é a vez de B
+     [TURNO: 7]
+Posição atual: 3
+|-------------------------|
+| Casa de SORTE           |
+| Avance 6 casas.         |
+|-------------------------|
+> Jogar novamente ...
+Posição atual: 3
+|-------------------------|
+|Casa de AZAR             |
+| Volte -3 casas.         |
+|-------------------------|
+Fim jogada: B
+Fim jogada: B
+Agora é a vez de C
+     [TURNO: 8]
+Posição atual: 1
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: C
+Agora é a vez de D
+     [TURNO: 9]
+Posição atual: 1
+|-------------------------|
+| Casa Neutra             |
+|jogadores:               |
+|B,                       |
+|-------------------------|
+Fim jogada: D
+Agora é a vez de E
+     [TURNO: 10]
+Posição atual: 4
+|-------------------------|
+|Casa de AZAR             |
+| Volte -3 casas.         |
+|jogadores:               |
+|E,                       |
+|-------------------------|
+Fim jogada: E
+Agora é a vez de A
+     [TURNO: 11]
+Posição atual: 7
+|-------------------------|
+|Casa de AZAR             |
+| Volte -3 casas.         |
+|-------------------------|
+Fim jogada: A
+Agora é a vez de B
+     [TURNO: 12]
+Posição atual: 3
+|-------------------------|
+|Casa de AZAR             |
+| Volte -3 casas.         |
+|jogadores:               |
+|C, D,                    |
+|-------------------------|
+Fim jogada: B
+Agora é a vez de C
+     [TURNO: 13]
+Posição atual: 1
+|-------------------------|
+|Casa de AZAR             |
+| Volte -3 casas.         |
+|-------------------------|
+Fim jogada: C
+Agora é a vez de D
+     [TURNO: 14]
+Posição atual: 5
+|-------------------------|
+| Casa Neutra             |
+|jogadores:               |
+|B,                       |
+|-------------------------|
+Fim jogada: D
+Agora é a vez de E
+     [TURNO: 15]
+Posição atual: 2
+|-------------------------|
+|Casa de AZAR             |
+| Volte -4 casas.         |
+|-------------------------|
+Fim jogada: E
+Agora é a vez de A
+     [TURNO: 16]
+Posição atual: 8
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: A
+Agora é a vez de B
+     [TURNO: 17]
+Posição atual: 5
+|-------------------------|
+| Casa Neutra             |
+|jogadores:               |
+|C,                       |
+|-------------------------|
+Fim jogada: B
+Agora é a vez de C
+     [TURNO: 18]
+Posição atual: 1
+|-------------------------|
+|Casa de AZAR             |
+| Volte -4 casas.         |
+|jogadores:               |
+|E,                       |
+|-------------------------|
+Fim jogada: C
+Agora é a vez de D
+     [TURNO: 19]
+Posição atual: 4
+|-------------------------|
+|Casa de AZAR             |
+| Volte -4 casas.         |
+|-------------------------|
+Fim jogada: D
+Agora é a vez de E
+     [TURNO: 20]
+Posição atual: 8
+|-------------------------|
+| Casa Neutra             |
+|jogadores:               |
+|D,                       |
+|-------------------------|
+Fim jogada: E
+Agora é a vez de A
+     [TURNO: 21]
+Posição atual: 10
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: A
+Agora é a vez de B
+     [TURNO: 22]
+Posição atual: 10
+|-------------------------|
+| Casa Neutra             |
+|jogadores:               |
+|C,                       |
+|-------------------------|
+Fim jogada: B
+Agora é a vez de C
+     [TURNO: 23]
+Posição atual: 1
+|-------------------------|
+|Casa de AZAR             |
+| Volte -4 casas.         |
+|-------------------------|
+Fim jogada: C
+Agora é a vez de D
+     [TURNO: 24]
+Posição atual: 8
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: D
+Agora é a vez de E
+     [TURNO: 25]
+Posição atual: 7
+|-------------------------|
+|Casa de AZAR             |
+| Volte -3 casas.         |
+|-------------------------|
+Fim jogada: E
+Agora é a vez de A
+     [TURNO: 26]
+Posição atual: 13
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: A
+Agora é a vez de B
+     [TURNO: 27]
+Posição atual: 12
+|-------------------------|
+| Casa Neutra             |
+|jogadores:               |
+|C,                       |
+|-------------------------|
+Fim jogada: B
+Agora é a vez de C
+     [TURNO: 28]
+Posição atual: 4
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: C
+Agora é a vez de D
+     [TURNO: 29]
+Posição atual: 13
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: D
+Agora é a vez de E
+     [TURNO: 30]
+Posição atual: 10
+|-------------------------|
+| Casa Neutra             |
+|jogadores:               |
+|C,                       |
+|-------------------------|
+Fim jogada: E
+Agora é a vez de A
+     [TURNO: 31]
+Posição atual: 16
+|-------------------------|
+| Casa de SORTE           |
+| Avance 3 casas.         |
+|-------------------------|
+> Jogar novamente ...
+Posição atual: 13
+|-------------------------|
+|Casa de pouco AZAR       |
+| Volte -1 casas.         |
+|-------------------------|
+Fim jogada: A
+Fim jogada: A
+Agora é a vez de B
+     [TURNO: 32]
+Posição atual: 18
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: B
+Agora é a vez de C
+     [TURNO: 33]
+Posição atual: 1
+|-------------------------|
+|Casa de AZAR             |
+| Volte -3 casas.         |
+|-------------------------|
+Fim jogada: C
+Agora é a vez de D
+     [TURNO: 34]
+Posição atual: 17
+|-------------------------|
+| Casa de SORTE           |
+| Avance 1 casas.         |
+|-------------------------|
+> Jogar novamente ...
+Posição atual: 21
+|-------------------------|
+| Casa de SORTE           |
+| Avance 1 casas.         |
+|-------------------------|
+>> Jogar novamente ...
+Posição atual: 16
+|-------------------------|
+|Casa de pouco AZAR       |
+| Volte -2 casas.         |
+|-------------------------|
+Fim jogada: D
+Fim jogada: D
+Fim jogada: D
+Agora é a vez de E
+     [TURNO: 35]
+Posição atual: 16
+|-------------------------|
+| Casa de SORTE           |
+| Avance 3 casas.         |
+|-------------------------|
+> Jogar novamente ...
+Posição atual: 21
+|-------------------------|
+| Casa de SORTE           |
+| Avance 1 casas.         |
+|-------------------------|
+>> Jogar novamente ...
+Posição atual: 23
+|-------------------------|
+| Casa de SORTE           |
+| Avance 2 casas.         |
+|-------------------------|
+>>> Jogar novamente ...
+Posição atual: 28
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: E
+Fim jogada: E
+Fim jogada: E
+Fim jogada: E
+Agora é a vez de A
+     [TURNO: 36]
+Posição atual: 7
+|-------------------------|
+|Casa de pouco AZAR       |
+| Volte -1 casas.         |
+|-------------------------|
+Fim jogada: A
+Agora é a vez de B
+     [TURNO: 37]
+Posição atual: 23
+|-------------------------|
+| Casa de SORTE           |
+| Avance 2 casas.         |
+|jogadores:               |
+|C,                       |
+|-------------------------|
+> Jogar novamente ...
+Posição atual: 27
+|-------------------------|
+| Casa Neutra             |
+|jogadores:               |
+|C,                       |
+|-------------------------|
+Fim jogada: B
+Fim jogada: B
+Agora é a vez de C
+     [TURNO: 38]
+Posição atual: 5
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: C
+Agora é a vez de D
+     [TURNO: 39]
+Posição atual: 21
+|-------------------------|
+| Casa de SORTE           |
+| Avance 1 casas.         |
+|-------------------------|
+> Jogar novamente ...
+Posição atual: 27
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: D
+Fim jogada: D
+Agora é a vez de E
+     [TURNO: 40]
+Posição atual: 33
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: E
+Agora é a vez de A
+     [TURNO: 41]
+Posição atual: 12
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: A
+Agora é a vez de B
+     [TURNO: 42]
+Posição atual: 32
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: B
+Agora é a vez de C
+     [TURNO: 43]
+Posição atual: 10
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: C
+Agora é a vez de D
+     [TURNO: 44]
+Posição atual: 28
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: D
+Agora é a vez de E
+     [TURNO: 45]
+Posição atual: 39
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: E
+Agora é a vez de A
+     [TURNO: 46]
+Posição atual: 14
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: A
+Agora é a vez de B
+     [TURNO: 47]
+Posição atual: 33
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: B
+Agora é a vez de C
+     [TURNO: 48]
+Posição atual: 12
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: C
+Agora é a vez de D
+     [TURNO: 49]
+Posição atual: 34
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: D
+Agora é a vez de E
+     [TURNO: 50]
+Posição atual: 40
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: E
+Agora é a vez de A
+     [TURNO: 51]
+Posição atual: 18
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: A
+Agora é a vez de B
+     [TURNO: 52]
+Posição atual: 37
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: B
+Agora é a vez de C
+     [TURNO: 53]
+Posição atual: 16
+|-------------------------|
+| Casa de SORTE           |
+| Avance 3 casas.         |
+|-------------------------|
+> Jogar novamente ...
+Posição atual: 18
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: C
+Fim jogada: C
+Agora é a vez de D
+     [TURNO: 54]
+Posição atual: 35
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: D
+Agora é a vez de E
+     [TURNO: 55]
+Posição atual: 46
+|-------------------------|
+| Casa de SORTE           |
+| Avance 3 casas.         |
+|-------------------------|
+> Jogar novamente ...
+Posição atual: 52
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: E
+Fim jogada: E
+Agora é a vez de A
+     [TURNO: 56]
+Posição atual: 17
+|-------------------------|
+|Casa de pouco AZAR       |
+| Volte -1 casas.         |
+|-------------------------|
+Fim jogada: A
+Agora é a vez de B
+     [TURNO: 57]
+Posição atual: 40
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: B
+Agora é a vez de C
+     [TURNO: 58]
+Posição atual: 20
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: C
+Agora é a vez de D
+     [TURNO: 59]
+Posição atual: 41
+|-------------------------|
+| Casa de SORTE           |
+| Avance 5 casas.         |
+|-------------------------|
+> Jogar novamente ...
+Posição atual: 47
+|-------------------------|
+| Casa de SORTE           |
+| Avance 5 casas.         |
+|-------------------------|
+>> Jogar novamente ...
+Posição atual: 52
+|-------------------------|
+| Casa Neutra             |
+|-------------------------|
+Fim jogada: D
+Fim jogada: D
+Fim jogada: D
+TURNO: 60
+VENCEDOR: E
+FIM ======
+BUILD SUCCESSFUL (total time: 9 seconds)

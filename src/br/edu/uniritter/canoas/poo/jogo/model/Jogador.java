@@ -25,5 +25,8 @@ public class Jogador {
         return "Jogador: "+nome;
     }
 
-
+    public int JogarDado()
+    {
+        return new Dado().jogar();
+    }
 }
